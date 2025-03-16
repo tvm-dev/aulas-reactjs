@@ -1,0 +1,86 @@
+/* Estilização geral */
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Número do contador */
+  .counter-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 10px 0;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Grupo de botões */
+  .button-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  
+  /* Botões gerais */
+  .btn {
+    border: none;
+    padding: 12px 18px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Botão de aumento */
+  .increase {
+    background: #28a745;
+  }
+  
+  .increase:hover {
+    background: #218838;
+    transform: scale(1.1);
+  }
+  
+  /* Botão de diminuição */
+  .decrease {
+    background: #dc3545;
+  }
+  
+  .decrease:hover {
+    background: #c82333;
+    transform: scale(1.1);
+  }
+  
+  /* Botão de zerar */
+  .reset {
+    background: #ff9800;
+  }
+  
+  .reset:hover {
+    background: #e68900;
+    transform: scale(1.1);
+  }
+  
